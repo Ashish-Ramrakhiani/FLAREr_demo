@@ -12,8 +12,8 @@ This repository contains code for running FLARE simulations with FaaSr integrati
 
 1. Clone this repository:
 ```bash
-git clone https://github.com/YOUR_USERNAME/FLAREr.git
-cd FLAREr
+git clone https://github.com/Ashish-Ramrakhiani/FLAREr_demo.git
+cd FLAREr_demo
 ```
 
 2. Install the required dependencies in R:
@@ -111,7 +111,7 @@ devtools::load_all()
 
 2. Initialize the forecast environment:
 ```R
-paths <- initialize_forecast_environment(local_fork_directory="~/FLAREr")
+paths <- initialize_forecast_environment(local_fork_directory="~/FLAREr_demo")
 ```
 
 3. Run the FLARE simulation:
